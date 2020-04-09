@@ -33,14 +33,10 @@ let Calculator =  {
   }
 }
 
-function actionApplyer (startingPoint, functionArray) {
-  let start = startingPoint;
-  // for (let i = 0; i < functionArray.length; i++) {
-  //   start = (functionArray[i])(start);
-  // }
-  start.forEach(function(element, i){
-
-  });
-
-  return start;
+let actionApplyer = function(startingInteger, array) {
+  let integer = startingInteger
+  for (let i = 0; i < array.length; i++ ){
+    integer = array[i](integer)
+  }
+  return integer
 }
