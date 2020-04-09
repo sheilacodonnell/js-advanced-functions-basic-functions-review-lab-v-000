@@ -9,3 +9,4 @@ function mondayWork(activity = 'go to the office') {
 }
 
 mondayWork()
+
