@@ -12,7 +12,7 @@ mondayWork()
 
 function wrapAdjective(adj = 'special', flair = '*') {
   return function() { 
-    return `You are ${flair}${adj}${flair}`
+    return `You are ${flair}${adj}${flair}!`
   }
 }
 
