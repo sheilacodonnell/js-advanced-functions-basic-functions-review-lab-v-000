@@ -16,4 +16,4 @@ function wrapAdjective(adj = 'special') {
   }
 }
 
-wrapAdjective()
+wrapAdjective('hard worker')
