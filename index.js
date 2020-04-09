@@ -17,3 +17,5 @@ function wrapAdjective(flair = '*') {
 }
 
 wrapAdjective()
+
+let Calculator = Object.assign
