@@ -1,5 +1,5 @@
 function saturdayFun(activity='roller-skate') {
-  console.log(`${lawyer} razzle-dazzles ${target}!`);
+  console.log(`This Saturday, I want to ${activity}!`);
 }
 
 saturdayFun();
