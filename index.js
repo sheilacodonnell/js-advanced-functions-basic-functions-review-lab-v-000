@@ -16,4 +16,4 @@ function wrapAdjective(flair = '*') {
   }
 }
 
-wrapAdjective('', '*')
+wrapAdjective()
