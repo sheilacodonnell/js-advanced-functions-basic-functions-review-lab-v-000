@@ -11,9 +11,9 @@ function mondayWork(activity = 'go to the office') {
 mondayWork()
 
 function wrapAdjective(flair = '*') {
-  return function() { 
+  return function(adj = 'a hard worker') { 
     return `You are ${flair}${adj}${flair}!`
   }
 }
 
-wrapAdjective('a hard worker', '*')
+wrapAdjective('', '*')
