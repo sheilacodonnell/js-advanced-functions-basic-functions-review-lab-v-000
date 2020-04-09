@@ -33,6 +33,6 @@ let Calculator =  {
   }
 }
 
-function actionApplyer() {
+let actionApplyer = function() {
   
 }
