@@ -13,3 +13,5 @@ mondayWork()
 function wrapAdjective(adj = 'special') {
   return `You are ${adj]`
 }
+
+wrapAdjective()
