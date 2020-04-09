@@ -10,10 +10,10 @@ function mondayWork(activity = 'go to the office') {
 
 mondayWork()
 
-function wrapAdjective(adj, flair = '*') {
+function wrapAdjective(adj, flair) {
   return function() { 
     return `You are ${flair}${adj}${flair}!`
   }
 }
 
-wrapAdjective('a hard worker')
+wrapAdjective('a hard worker', '*')
