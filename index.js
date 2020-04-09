@@ -39,8 +39,7 @@ function actionApplyer (startingPoint, functionArray) {
   //   start = (functionArray[i])(start);
   // }
   start.forEach(function(element, i){
-    console.log('hi')
-    
+
   });
 
   return start;
