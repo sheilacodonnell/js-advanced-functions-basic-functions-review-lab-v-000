@@ -18,7 +18,7 @@ function wrapAdjective(flair = '*') {
 
 wrapAdjective()
 
-let Calculator = add: { 
-  function() {
+let Calculator =  { 
+  add: function() {
   }
 }
